@@ -16,4 +16,4 @@ Then you'll have to add this file to your project and in file properties, Copy t
 
 
 ## TODOs
-See wiki
+[See wiki](https://github.com/crannnabethadh/W13_AzureSQLDataAccess/wiki)
