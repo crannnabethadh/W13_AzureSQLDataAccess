@@ -16,5 +16,4 @@ Then you'll have to add this file to your project and in file properties, Copy t
 
 
 ## TODOs
-TODO: Register new users
-TODO: Unity UI to Login and register users
+See wiki
