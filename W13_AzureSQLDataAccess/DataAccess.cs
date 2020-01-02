@@ -36,7 +36,7 @@ namespace W13_AzureSQLDataAccess
             using (IDbConnection cnn = new SqlConnection(_connectionString))
             {
                 string sql = $"INSERT INTO [dbo].[User](FirstName, LastName, Nickname, Email, Password) " +
-                    $"VALUES ({newUser.FirstName},{newUser.LastName},{newUser.Nickname},{newUser.Email},{newUser.Password})";
+                    $"VALUES ('{newUser.FirstName}','{newUser.LastName}','{newUser.Nickname}','{newUser.Email}','{newUser.Password}')";
                 int rowsReturned = cnn.Execute(sql);
                 return rowsReturned;
             }
